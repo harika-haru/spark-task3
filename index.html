@@ -10,7 +10,7 @@
     <script src="script.js"></script>
     
     <div class="container">
-        <h1>Temperature Converter</h1>
+        <h1 id="first"><b>TEMPERATURE CONVERTER</b></h1>
         <div class="form-group">
             <label for="celsius">Celsius To Fahrenheit:</label><pre></pre>
             <input type="number" id="celsius" placeholder="Enter temperature in Celsius">
@@ -24,10 +24,14 @@
         </div>
         <button class="btn" onclick="convertFahrenheitToCelsius()">Convert</button>
         <div class="result" id="result2"></div>
+
+        <div class="form-group">
+            <label for="kelvin">Kelvin to Celsius:</label><br>
+            <input type="number" id="kelvin" placeholder="Enter temperature in Kelvin">
+        </div>
+        <button class="btn" onclick="convertKelvinToCelsius()">Convert</button>
+        <div class="result" id="result3"></div>
     </div>
 
-    <script>
-       
-    </script>
 </body>
 </html>

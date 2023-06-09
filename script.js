@@ -18,3 +18,8 @@ function convertFahrenheitToCelsius() {
         result2.innerHTML = fahrenheit + "°F = " + celsius.toFixed(2) + "°C";
     }
 }
+function convertKelvinToCelsius() {
+    var kelvinInput = document.getElementById("kelvin").value;
+    var celsiusResult = kelvinInput - 273.15;
+    document.getElementById("result3").innerHTML = kelvinInput + "K = " + celsiusResult + "°C";
+}
